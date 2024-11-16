@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+}
+
+#school-logo {
+  max-width: 150px; /* Adjust size as needed */
+  height: auto;
+}
+
+.heading {
+  text-align: center;
+}
+
+.card {
+  width: 100%;
+  border: none;
+  background-color: #a600ff; /* Set background color to dark blue */
+  color: white; /* Set text color to white */
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+
+/*index.html
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Management</title>
+  </head>
+  <body>
+    <div class="container d-flex flex-column align-items-center justify-content-center vh-100">
+      <img src="college-logo.png" alt="College Logo" id="school-logo" class="position-absolute" style="top: 20px; left: 20px;">
+      <div class="heading text-center mb-4">
+        <img src="new-logo.jpg" alt="New Logo" id="new-logo">
+        <h1>Attendance Records</h1>
+      </div>
+      <div class="login card p-4">
+        <h2 class="login_head text-center mb-4">Teacher Login</h2>
+        <form action="" id="form">
+          <div class="mb-3">
+            <input type="text" id="name" class="form-control" placeholder="Username">
+          </div>
+          <div class="mb-3">
+            <input type="password" id="password" class="form-control" placeholder="Password">
+          </div>
+          <div class="d-grid">
+            <input type="submit" class="btn btn-warning" id="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>-->*/
